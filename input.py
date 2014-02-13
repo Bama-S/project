@@ -2,13 +2,13 @@ import sys
 sys.path.append('/usr/lib/graphviz/python/')    # 32-bits
 sys.path.append('/usr/lib64/graphviz/python/')
 sys.path.append('/usr/lib/pyshared/python2.7')
-import gv
+#import gv
 
 # Import pygraph
-from pygraph.classes.graph import graph
-from pygraph.classes.digraph import digraph
-from pygraph.algorithms.searching import breadth_first_search
-from pygraph.readwrite.dot import write
+#from pygraph.classes.graph import graph
+#from pygraph.classes.digraph import digraph
+#from pygraph.algorithms.searching import breadth_first_search
+#from pygraph.readwrite.dot import write
 
 import networkx as nx
 import matplotlib.pyplot as plt
